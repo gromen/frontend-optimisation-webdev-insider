@@ -124,6 +124,7 @@
               </h2>
               <p class="small-text">
                 <img
+                  loading="lazy"
                   src="/assets/images/homework/post.png"
                   class="l-megamenu__image"
                   alt=""
@@ -186,6 +187,7 @@
               <h2 class="headline-2">PCI DSS and the contact center</h2>
               <p class="small-text">
                 <img
+                  loading="lazy"
                   src="/assets/images/homework/img-about-overview-platform.png"
                   class="l-megamenu__image"
                   alt=""
@@ -220,6 +222,7 @@
               <h2 class="headline-2">Report about mobile payment gateways</h2>
               <p class="small-text">
                 <img
+                  loading="lazy"
                   src="/assets/images/homework/post2.png"
                   class="l-megamenu__image"
                   alt=""
@@ -539,10 +542,16 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script> -->
 
-    <script src="/assets/js/homework/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lc-XPUZAAAAAOiLd3INhvxz6joup8GNDQ3Iy-uL"></script>
+    <script
+      defer
+      src="/assets/js/homework/vendor/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      defer
+      src="https://www.google.com/recaptcha/api.js?render=6Lc-XPUZAAAAAOiLd3INhvxz6joup8GNDQ3Iy-uL"
+    ></script>
 
     <script>
       var media_url = "/assets/",
@@ -554,10 +563,10 @@
       src="/assets/js/homework/vendor/requirejs/require.js"
     ></script>
 
-    <script src="https://js.stripe.com/v3/"></script>
+    <script async src="https://js.stripe.com/v3/"></script>
 
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+    <script defer type="text/javascript">
       var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
       (function () {
